@@ -1,0 +1,149 @@
+Script started on Mon Feb 16 12:54:40 2015
+[?1h=
+******************************************************************
+                        WELCOME TO CSE 12!
+****************************************************************** 
+[7m/home/linux/ieng6/cs12x/public/broadcast (END) [27m[K[K [KESCESC[KOO[KBB[K[K[?1l>]0;[cs12x]  cs12xkf@ieng6-201.ucsd.edu:/home/linux/ieng6/cs12x/cs12xkf[?1034h[cs12xkf@ieng6-201]:~:489$ cd hw8 7
+]0;[cs12x]  cs12xkf@ieng6-201.ucsd.edu:/home/linux/ieng6/cs12x/cs12xkf/hw7[cs12xkf@ieng6-201]:hw7:490$ ./Driver2
+Initial Symbol Table:
+Tree UCSDStudentTree:
+occupancy is 0 elements.
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  Angie
+Please enter UCSD student number:  111
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  Alvin
+Please enter UCSD student number:  222
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  Joe
+Please enter UCSD student number:  3
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  Derrick
+Please enter UCSD student number:  10
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  Zach
+Please enter UCSD student number:  999
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  w
+The Symbol Table contains:
+Tree UCSDStudentTree:
+occupancy is 5 elements.
+at height:  0  with balance: 0  name:  Alvin  studentnum:  222
+at height:  2  with balance: -1  name:  Angie  studentnum:  111
+at height:  0  with balance: 0  name:  Derrick  studentnum:  10
+at height:  1  with balance: 0  name:  Joe  studentnum:  3
+at height:  0  with balance: 0  name:  Zach  studentnum:  999
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  r l
+Please enter UCSD student name to lookup:  Angie
+Student found!
+name:  Angie  studentnum:  111
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  l
+Please enter UCSD student name to lookup:  Harry
+student Harry not there!
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  i r
+Please enter UCSD student name to remove:  Harry
+student Harry not there!
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  r
+Please enter UCSD student name to remove:  Angie
+Student removed!
+name:  Angie  studentnum:  111
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  w
+The Symbol Table contains:
+Tree UCSDStudentTree:
+occupancy is 4 elements.
+at height:  0  with balance: 0  name:  Alvin  studentnum:  222
+at height:  0  with balance: 0  name:  Derrick  studentnum:  10
+at height:  1  with balance: 0  name:  Joe  studentnum:  3
+at height:  0  with balance: 0  name:  Zach  studentnum:  999
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  Angie
+Please enter UCSD student number:  88888
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  l
+Please enter UCSD student name to lookup:  Angie
+Student found!
+name:  Angie  studentnum:  88888
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  w
+The Symbol Table contains:
+Tree UCSDStudentTree:
+occupancy is 5 elements.
+at height:  0  with balance: 0  name:  Alvin  studentnum:  222
+at height:  2  with balance: -1  name:  Angie  studentnum:  88888
+at height:  0  with balance: 0  name:  Derrick  studentnum:  10
+at height:  1  with balance: 0  name:  Joe  studentnum:  3
+at height:  0  with balance: 0  name:  Zach  studentnum:  999
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  
+Final Symbol Table:
+Tree UCSDStudentTree:
+occupancy is 5 elements.
+at height:  0  with balance: 0  name:  Alvin  studentnum:  222
+at height:  2  with balance: -1  name:  Angie  studentnum:  88888
+at height:  0  with balance: 0  name:  Derrick  studentnum:  10
+at height:  1  with balance: 0  name:  Joe  studentnum:  3
+at height:  0  with balance: 0  name:  Zach  studentnum:  999
+[cs12xkf@ieng6-201]:hw7:491$ ./Driver2 1
+Initial Symbol Table:
+Tree UCSDStudentTree:
+occupancy is 0 elements.
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  Angie
+Please enter UCSD student number:  111
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  Alvin
+Please enter UCSD student number:  222
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  Joe
+Please enter UCSD student number:  3
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  j R Trent
+Please enter UCSD student number:  9
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  Larry
+Please enter UCSD student number:  2
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  w
+The Symbol Table contains:
+Tree UCSDStudentTree:
+occupancy is 5 elements.
+at height:  0  with balance:  0  name:  Alvin  studentnum:  222
+at height:  1  with balance:  -2  name:  Angie  studentnum:  111
+at height:  2  with balance:  -2  name:  Joe  studentnum:  3
+at height:  0  with balance:  0  name:  Larry  studentnum:  2
+at height:  1  with balance:  1  name:  Trent  studentnum:  9
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  l
+Please enter UCSD student name to lookup:  Mike
+student Mike not there!
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  r
+Please enter UCSD student name to remove:  Mike
+student Mike not there!
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  l
+Please enter UCSD student name to lookup:  An  jo  Joe
+Student found!
+name:  Joe  studentnum:  3
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  a r
+Please enter UCSD student name to remove:  Joe
+Student removed!
+name:  Joe  studentnum:  3
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  w
+The Symbol Table contains:
+Tree UCSDStudentTree:
+occupancy is 4 elements.
+at height:  0  with balance:  0  name:  Alvin  studentnum:  222
+at height:  1  with balance:  -2  name:  Angie  studentnum:  111
+at height:  0  with balance:  0  name:  Larry  studentnum:  2
+at height:  1  with balance:  1  name:  Trent  studentnum:  9
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  a
+Please enter name of new Tree to allocate:  NEWTREE
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  new
+Please enter UCSD student number:  1
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  w
+The Symbol Table contains:
+Tree NEWTREE:
+occupancy is 1 elements.
+at height:  0  with balance:  0  name:  new  studentnum:  1
+Please enter a command:  ((a)llocate, (i)nsert, (l)ookup, (r)emove, (w)rite):  
+Final Symbol Table:
+Tree NEWTREE:
+occupancy is 1 elements.
+at height:  0  with balance:  0  name:  new  studentnum:  1
+[cs12xkf@ieng6-201]:hw7:492$ exit
+
+Script done on Mon Feb 16 12:57:25 2015

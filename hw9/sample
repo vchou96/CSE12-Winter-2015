@@ -1,0 +1,226 @@
+Script started on Fri Mar 13 02:23:54 2015
+[?1h=
+******************************************************************
+                        WELCOME TO CSE 12!
+****************************************************************** 
+[7m/home/linux/ieng6/cs12x/public/broadcast (END) [27m[K[K[K[?1l>]0;[cs12x]  cs12xkf@acs-cseb250-35.ucsd.edu:/home/linux/ieng6/cs12x/cs12xkf[?1034h[cs12xkf@acs-cseb250-35]:~:501$ cd hw90 
+]0;[cs12x]  cs12xkf@acs-cseb250-35.ucsd.edu:/home/linux/ieng6/cs12x/cs12xkf/hw9[cs12xkf@acs-cseb250-35]:hw9:502$ make fresh
+rm -f Calc.datafile Driver.datafile
+touch Calc.datafile Driver.datafile
+[cs12xkf@acs-cseb250-35]:hw9:503$ / ./Driver -x
+[Tree 1 - Allocating]
+Initial Symbol Table:
+Tree 1:
+occupancy is 0 elements.
+Please enter a command ((f)ile, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  a
+Please enter UCSD student number:  1
+[Cost Increment (Disk Access): Writing a]
+Please enter a command ((f)ile, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  b
+Please enter UCSD student number:  2
+[Cost Increment (Disk Access): Reading a]
+[Cost Increment (Disk Access): Writing b]
+[Cost Increment (Disk Access): Reading b]
+[Cost Increment (Disk Access): Writing a]
+Please enter a command ((f)ile, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  c
+Please enter UCSD student number:  3
+[Cost Increment (Disk Access): Reading a]
+[Cost Increment (Disk Access): Reading b]
+[Cost Increment (Disk Access): Writing c]
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Writing b]
+[Cost Increment (Disk Access): Reading b]
+[Cost Increment (Disk Access): Writing a]
+Please enter a command ((f)ile, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  d
+Please enter UCSD student number:  4
+[Cost Increment (Disk Access): Reading a]
+[Cost Increment (Disk Access): Reading b]
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Writing d]
+[Cost Increment (Disk Access): Reading d]
+[Cost Increment (Disk Access): Writing c]
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Writing b]
+[Cost Increment (Disk Access): Reading b]
+[Cost Increment (Disk Access): Reading b]
+[Cost Increment (Disk Access): Writing a]
+[Cost Increment (Disk Access): Reading a]
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Writing b]
+Please enter a command ((f)ile, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  e
+Please enter UCSD student number:  5
+[Cost Increment (Disk Access): Reading b]
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Reading d]
+[Cost Increment (Disk Access): Writing e]
+[Cost Increment (Disk Access): Reading e]
+[Cost Increment (Disk Access): Writing d]
+[Cost Increment (Disk Access): Reading d]
+[Cost Increment (Disk Access): Writing c]
+[Cost Increment (Disk Access): Reading a]
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Writing b]
+Please enter a command ((f)ile, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  f
+Please enter UCSD student number:  5
+[Cost Increment (Disk Access): Reading b]
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Reading d]
+[Cost Increment (Disk Access): Reading e]
+[Cost Increment (Disk Access): Writing f]
+[Cost Increment (Disk Access): Reading f]
+[Cost Increment (Disk Access): Writing e]
+[Cost Increment (Disk Access): Reading e]
+[Cost Increment (Disk Access): Writing d]
+[Cost Increment (Disk Access): Reading d]
+[Cost Increment (Disk Access): Reading d]
+[Cost Increment (Disk Access): Writing c]
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Reading e]
+[Cost Increment (Disk Access): Writing d]
+[Cost Increment (Disk Access): Reading a]
+[Cost Increment (Disk Access): Reading d]
+[Cost Increment (Disk Access): Writing b]
+Please enter a command ((f)ile, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  g
+Please enter UCSD student number:  6
+[Cost Increment (Disk Access): Reading b]
+[Cost Increment (Disk Access): Reading d]
+[Cost Increment (Disk Access): Reading e]
+[Cost Increment (Disk Access): Reading f]
+[Cost Increment (Disk Access): Writing g]
+[Cost Increment (Disk Access): Reading g]
+[Cost Increment (Disk Access): Writing f]
+[Cost Increment (Disk Access): Reading f]
+[Cost Increment (Disk Access): Writing e]
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Reading e]
+[Cost Increment (Disk Access): Writing d]
+[Cost Increment (Disk Access): Reading a]
+[Cost Increment (Disk Access): Reading d]
+[Cost Increment (Disk Access): Reading a]
+[Cost Increment (Disk Access): Writing a]
+[Cost Increment (Disk Access): Reading a]
+[Cost Increment (Disk Access): Reading d]
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Writing b]
+[Cost Increment (Disk Access): Reading b]
+[Cost Increment (Disk Access): Writing c]
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Reading e]
+[Cost Increment (Disk Access): Writing d]
+[Cost Increment (Disk Access): Reading d]
+[Cost Increment (Disk Access): Reading d]
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Reading b]
+[Cost Increment (Disk Access): Writing a]
+[Cost Increment (Disk Access): Reading a]
+[Cost Increment (Disk Access): Writing b]
+[Cost Increment (Disk Access): Reading b]
+[Cost Increment (Disk Access): Writing c]
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Reading e]
+[Cost Increment (Disk Access): Writing d]
+Please enter a command ((f)ile, (i)nsert, (l)ookup, (r)emove, (w)rite):  r
+Please enter UCSD student name to remove:  b
+[Cost Increment (Disk Access): Reading d]
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Reading b]
+[Cost Increment (Disk Access): Reading a]
+[Cost Increment (Disk Access): Writing c]
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Reading e]
+[Cost Increment (Disk Access): Writing d]
+Student removed!!!
+name:  b with studentnum:  2
+Please enter a command ((f)ile, (i)nsert, (l)ookup, (r)emove, (w)rite):  r
+Please enter UCSD student name to remove:  d
+[Cost Increment (Disk Access): Reading d]
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Reading a]
+[Cost Increment (Disk Access): Reading e]
+[Cost Increment (Disk Access): Writing c]
+Student removed!!!
+name:  d with studentnum:  4
+Please enter a command ((f)ile, (i)nsert, (l)ookup, (r)emove, (w)rite):  r
+Please enter UCSD student name to remove:  u
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Reading e]
+[Cost Increment (Disk Access): Reading f]
+[Cost Increment (Disk Access): Reading g]
+student u not there!
+Please enter a command ((f)ile, (i)nsert, (l)ookup, (r)emove, (w)rite):  r
+Please enter UCSD student name to remove:  t
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Reading e]
+[Cost Increment (Disk Access): Reading f]
+[Cost Increment (Disk Access): Reading g]
+student t not there!
+Please enter a command ((f)ile, (i)nsert, (l)ookup, (r)emove, (w)rite):  r
+Please enter UCSD student name to remove:  g
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Reading e]
+[Cost Increment (Disk Access): Reading f]
+[Cost Increment (Disk Access): Reading g]
+[Cost Increment (Disk Access): Writing f]
+[Cost Increment (Disk Access): Reading f]
+[Cost Increment (Disk Access): Writing e]
+[Cost Increment (Disk Access): Reading a]
+[Cost Increment (Disk Access): Reading e]
+[Cost Increment (Disk Access): Writing c]
+Student removed!!!
+name:  g with studentnum:  6
+Please enter a command ((f)ile, (i)nsert, (l)ookup, (r)emove, (w)rite):  r
+Please enter UCSD student name to remove:  f
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Reading e]
+[Cost Increment (Disk Access): Reading f]
+[Cost Increment (Disk Access): Writing e]
+[Cost Increment (Disk Access): Reading a]
+[Cost Increment (Disk Access): Reading e]
+[Cost Increment (Disk Access): Writing c]
+Student removed!!!
+name:  f with studentnum:  5
+Please enter a command ((f)ile, (i)nsert, (l)ookup, (r)emove, (w)rite):  l
+Please enter UCSD student name to lookup:  a
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Reading a]
+Student found!!!
+name:  a with studentnum:  1
+Please enter a command ((f)ile, (i)nsert, (l)ookup, (r)emove, (w)rite):  l
+Please enter UCSD student name to lookup:  p
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Reading e]
+student p not there!
+Please enter a command ((f)ile, (i)nsert, (l)ookup, (r)emove, (w)rite):  w
+The Symbol Table contains:
+Tree 1:
+occupancy is 3 elements.
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Reading a]
+at height:  :0 with balance:  0  name:  a with studentnum:  1
+at height:  :1 with balance:  0  name:  c with studentnum:  3
+[Cost Increment (Disk Access): Reading e]
+at height:  :0 with balance:  0  name:  e with studentnum:  5
+Please enter a command ((f)ile, (i)nsert, (l)ookup, (r)emove, (w)rite):  
+Final Symbol Table:
+Tree 1:
+occupancy is 3 elements.
+[Cost Increment (Disk Access): Reading c]
+[Cost Increment (Disk Access): Reading a]
+at height:  :0 with balance:  0  name:  a with studentnum:  1
+at height:  :1 with balance:  0  name:  c with studentnum:  3
+[Cost Increment (Disk Access): Reading e]
+at height:  :0 with balance:  0  name:  e with studentnum:  5
+
+Cost of operations: 134 tree accesses
+Number of operations: 15
+Average cost: 8.93333 tree accesses/operation
+[Tree 1 - Deallocating]
+[cs12xkf@acs-cseb250-35]:hw9:504$ exit
+
+Script done on Fri Mar 13 02:24:35 2015
