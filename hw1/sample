@@ -1,0 +1,29 @@
+Script started on Sat Jan 10 15:02:37 2015
+[?1h=
+******************************************************************
+                        WELCOME TO CSE 12!
+****************************************************************** 
+[7m/home/linux/ieng6/cs12x/public/broadcast (END) [27m[K[K [KESCESC[KOO[KBB[K[K[?1l>]0;[cs12x]  cs12xkf@acs-cseb260-28.ucsd.edu:/home/linux/ieng6/cs12x/cs12xkf[?1034h[cs12xkf@acs-cseb260-28]:~:133$ cd hw1
+]0;[cs12x]  cs12xkf@acs-cseb260-28.ucsd.edu:/home/linux/ieng6/cs12x/cs12xkf/hw1[cs12xkf@acs-cseb260-28]:hw1:134$ make l clean
+rm -f *.class *.o driver1 driver2 core /home/linux/ieng6/cs12x/cs12xkf/core
+[cs12xkf@acs-cseb260-28]:hw1:135$ make
+gcc -Wall -pedantic -c -g hw1.c
+gcc -Wall -pedantic -o driver1 hw1.o
+javac -g hw1.java
+echo 'java hw1 $*' > driver2
+chmod ug+rx driver2
+[cs12xkf@acs-cseb260-28]:hw1:136$ ./driver1
+Zdravei Sviat
+Hello World
+123
+0
+0x0FEEDDAD
+[cs12xkf@acs-cseb260-28]:hw1:137$ ./driver2
+Zdravei Sviat
+Hello World
+123
+0
+0x0FEEDDAD
+[cs12xkf@acs-cseb260-28]:hw1:138$ exit
+
+Script done on Sat Jan 10 15:02:59 2015

@@ -1,0 +1,249 @@
+Script started on Wed Feb 11 00:22:14 2015
+[?1h=
+******************************************************************
+                        WELCOME TO CSE 12!
+****************************************************************** 
+[7m/home/linux/ieng6/cs12x/public/broadcast (END) [27m[K[K [KESCESC[KOO[KBB[K[K[?1l>]0;[cs12x]  cs12xkf@acs-cseb260-40.ucsd.edu:/home/linux/ieng6/cs12x/cs12xkf[?1034h[cs12xkf@acs-cseb260-40]:~:680$ cd hw5 6
+]0;[cs12x]  cs12xkf@acs-cseb260-40.ucsd.edu:/home/linux/ieng6/cs12x/cs12xkf/hw6[cs12xkf@acs-cseb260-40]:hw6:681$ i scr   make
+make: Nothing to be done for `all'.
+[cs12xkf@acs-cseb260-40]:hw6:682$ makecd hw6./Driver2 -x   
+Initial Symbol Table:
+Hash Table 1:
+size is 5 elements, occupancy is 0 elements.
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  i
+Please enter UCSD Student name to insert:  name
+Please enter UCSD Student number:  123
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  i
+Please enter UCSD Student name to insert:  amen
+Please enter UCSD Student number:  234
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  i
+Please enter UCSD Student name to insert:  mean
+Please enter UCSD Student number:  345
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  i w
+The Symbol Table contains:
+Hash Table 1:
+size is 5 elements, occupancy is 3 elements.
+at index 1: name: mean Studentnum: 345 with probeCount: 3
+at index 2: name: name Studentnum: 123 with probeCount: 1
+at index 4: name: amen Studentnum: 234 with probeCount: 2
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  i
+Please enter UCSD Student name to insert:  Tracker1 
+Please enter UCSD Student number:  1
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  w
+The Symbol Table contains:
+Hash Table 1:
+size is 5 elements, occupancy is 4 elements.
+at index 1: name: mean Studentnum: 345 with probeCount: 3
+at index 2: name: Tracker Studentnum: 1 with probeCount: 2
+at index 3: name: name Studentnum: 123 with probeCount: 4
+at index 4: name: amen Studentnum: 234 with probeCount: 2
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  l
+Please enter UCSD Student name to lookup:  Tracker
+Student found!!!
+name: Tracker Studentnum: 1
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  i
+Please enter UCSD Student name to insert:  hi
+Please enter UCSD Student number:  50
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  w
+The Symbol Table contains:
+Hash Table 1:
+size is 5 elements, occupancy is 5 elements.
+at index 0: name: hi Studentnum: 50 with probeCount: 4
+at index 1: name: mean Studentnum: 345 with probeCount: 3
+at index 2: name: Tracker Studentnum: 1 with probeCount: 2
+at index 3: name: name Studentnum: 123 with probeCount: 4
+at index 4: name: amen Studentnum: 234 with probeCount: 2
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  hi  i
+Please enter UCSD Student name to insert:  hi
+Please enter UCSD Student number:  100
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  w
+The Symbol Table contains:
+Hash Table 1:
+size is 5 elements, occupancy is 5 elements.
+at index 0: name: hi Studentnum: 100 with probeCount: 4
+at index 1: name: mean Studentnum: 345 with probeCount: 3
+at index 2: name: Tracker Studentnum: 1 with probeCount: 2
+at index 3: name: name Studentnum: 123 with probeCount: 4
+at index 4: name: amen Studentnum: 234 with probeCount: 2
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  i
+Please enter UCSD Student name to insert:  bye
+Please enter UCSD Student number:  4
+Couldn't insert student!!!
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  
+Final Symbol Table:
+Hash Table 1:
+size is 5 elements, occupancy is 5 elements.
+at index 0: name: hi Studentnum: 100 with probeCount: 4
+at index 1: name: mean Studentnum: 345 with probeCount: 3
+at index 2: name: Tracker Studentnum: 1 with probeCount: 2
+at index 3: name: name Studentnum: 123 with probeCount: 4
+at index 4: name: amen Studentnum: 234 with probeCount: 2
+[cs12xkf@acs-cseb260-40]:hw6:683$ ./Driver2 1
+Initial Symbol Table:
+Hash Table 1:
+size is 5 elements, occupancy is 0 elements.
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  u i
+Please enter UCSD student name to insert:  name
+Please enter UCSD student number:  123
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  i
+Please enter UCSD student name to insert:  amen
+Please enter UCSD student number:  234
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  i
+Please enter UCSD student name to insert:  mean
+Please enter UCSD student number:  345
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  i
+Please enter UCSD student name to insert:  Tracker
+Please enter UCSD student number:  1
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  i
+Please enter UCSD student name to insert:  hi
+Please enter UCSD student number:  50
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  bye
+Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  Please enter a command:  ((i)nsert, (l)ookup, (w)rite):  i
+Please enter UCSD student name to insert:  bye
+Please enter UCSD student number:  10
+
+Final Symbol Table:
+Hash Table 1:
+size is 5 elements, occupancy is 5 elements.
+at index 0: name: hi Studentnum: 50 with probeCount: 4
+at index 1: name: mean Studentnum: 345 with probeCount: 3
+at index 2: name: Tracker Studentnum: 1 with probeCount: 2
+at index 3: name: name Studentnum: 123 with probeCount: 4
+at index 4: name: amen Studentnum: 234 with probeCount: 2
+[cs12xkf@acs-cseb260-40]:hw6:684$ ./Driver1       Calc1 2
+
+Please enter an expression to calculate:  i 1+1
+
+The expression in postfix order is:  1  1  +  
+which evaluates to:  2
+
+- Hash Table 1:
+size is 53 elements, occupancy is 0 elements.
+
+Please enter an expression to calculate:  5+5  *5
+
+The expression in postfix order is:  5  5  *  
+which evaluates to:  25
+
+- Hash Table 1:
+size is 53 elements, occupancy is 0 elements.
+
+Please enter an expression to calculate:  a=5
+
+The expression in postfix order is:  a(0)  5  =  
+which evaluates to:  5
+
+- Hash Table 1:
+size is 53 elements, occupancy is 1 elements.
+at index 44: a(5) with probeCount: 1
+
+Please enter an expression to calculate:  b=10
+
+The expression in postfix order is:  b(0)  10  =  
+which evaluates to:  10
+
+- Hash Table 1:
+size is 53 elements, occupancy is 2 elements.
+at index 44: a(5) with probeCount: 1
+at index 45: b(10) with probeCount: 1
+
+Please enter an expression to calculate:  a+b
+
+The expression in postfix order is:  a(0)  b(0)  +  
+which evaluates to:  15
+
+- Hash Table 1:
+size is 53 elements, occupancy is 2 elements.
+at index 44: a(5) with probeCount: 1
+at index 45: b(10) with probeCount: 1
+
+Please enter an expression to calculate:  a=b
+
+The expression in postfix order is:  a(0)  b(0)  =  
+which evaluates to:  10
+
+- Hash Table 1:
+size is 53 elements, occupancy is 2 elements.
+at index 44: a(10) with probeCount: 1
+at index 45: b(10) with probeCount: 1
+
+Please enter an expression to calculate:  
+[cs12xkf@acs-cseb260-40]:hw6:685$ ./Calc2 1
+
+Please enter an expression to calculate:  1+5 1
+
+The expression in postfix order is:  1  1  +  
+which evaluates to:  2
+
+Calculator is:
+Stack 1 is:
+Stack 2 is:
+SymTab is:  Hash Table 1:
+size is 53 elements, occupancy is 0 elements.
+
+Please enter an expression to calculate:  5*5
+
+The expression in postfix order is:  5  5  *  
+which evaluates to:  25
+
+Calculator is:
+Stack 1 is:
+Stack 2 is:
+SymTab is:  Hash Table 1:
+size is 53 elements, occupancy is 0 elements.
+
+Please enter an expression to calculate:  a=7
+
+The expression in postfix order is:  a(0)  7  =  
+which evaluates to:  7
+
+Calculator is:
+Stack 1 is:
+Stack 2 is:
+SymTab is:  Hash Table 1:
+size is 53 elements, occupancy is 1 elements.
+at index 44: a(7) with probeCount: 1
+
+Please enter an expression to calculate:  b=3
+
+The expression in postfix order is:  b(0)  3  =  
+which evaluates to:  3
+
+Calculator is:
+Stack 1 is:
+Stack 2 is:
+SymTab is:  Hash Table 1:
+size is 53 elements, occupancy is 2 elements.
+at index 44: a(7) with probeCount: 1
+at index 45: b(3) with probeCount: 1
+
+Please enter an expression to calculate:  b=a   a*b
+
+The expression in postfix order is:  a(0)  b(0)  *  
+which evaluates to:  21
+
+Calculator is:
+Stack 1 is:
+Stack 2 is:
+SymTab is:  Hash Table 1:
+size is 53 elements, occupancy is 2 elements.
+at index 44: a(7) with probeCount: 1
+at index 45: b(3) with probeCount: 1
+
+Please enter an expression to calculate:  b=a
+
+The expression in postfix order is:  b(0)  a(0)  =  
+which evaluates to:  7
+
+Calculator is:
+Stack 1 is:
+Stack 2 is:
+SymTab is:  Hash Table 1:
+size is 53 elements, occupancy is 2 elements.
+at index 44: a(7) with probeCount: 1
+at index 45: b(7) with probeCount: 1
+
+Please enter an expression to calculate:  
+[cs12xkf@acs-cseb260-40]:hw6:686$ exit
+
+Script done on Wed Feb 11 00:25:08 2015

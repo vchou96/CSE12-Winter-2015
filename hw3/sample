@@ -1,0 +1,201 @@
+Script started on Tue Jan 20 23:53:43 2015
+[?1h=
+******************************************************************
+                        WELCOME TO CSE 12!
+****************************************************************** 
+[7m/home/linux/ieng6/cs12x/public/broadcast (END) [27m[K[K [KESCESC[KOO[KBB[K[K[?1l>]0;[cs12x]  cs12xkf@acs-cseb260-27.ucsd.edu:/home/linux/ieng6/cs12x/cs12xkf[?1034h[cs12xkf@acs-cseb260-27]:~:800$ cdh  hw3
+]0;[cs12x]  cs12xkf@acs-cseb260-27.ucsd.edu:/home/linux/ieng6/cs12x/cs12xkf/hw3[cs12xkf@acs-cseb260-27]:hw3:801$ make
+make: Nothing to be done for `all'.
+[cs12xkf@acs-cseb260-27]:hw3:802$ ./driver -x
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  a
+
+Please enter the number of objects to be able to store: 5
+[Stack 1 has been allocated]
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  u
+
+Please enter a number to push to stack:  1
+[Stack 1 - Pushing 1]
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  u
+
+Please enter a number to push to stack:  2
+[Stack 1 - Pushing 2]
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  u
+
+Please enter a number to push to stack:  3
+[Stack 1 - Pushing 3]
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  t
+[Stack 1 - Topping 3]
+Number at top of the stack is:  3
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  p
+[Stack 1 - Popping 3]
+Number popped from the stack is:  3
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  t
+[Stack 1 - Topping 2]
+Number at top of the stack is:  2
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  p
+[Stack 1 - Popping 2]
+Number popped from the stack is:  2
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  t
+[Stack 1 - Topping 1]
+Number at top of the stack is:  1
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  p
+[Stack 1 - Popping 1]
+Number popped from the stack is:  1
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  t
+Topping from an empty stack!!!
+
+WARNING:  top FAILED
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  p
+Popping from an empty stack!!!
+
+WARNING:  pop FAILED
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  a
+
+Please enter the number of objects to be able to store: 5
+[Stack 1 has been deallocated]
+[Stack 1 has been allocated]
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  d
+[Stack 1 has been deallocated]
+Stack has been deleted.
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  
+[cs12xkf@acs-cseb260-27]:hw3:803$ ./driver -x  
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  a
+
+Please enter the number of objects to be able to store: 5
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  u
+
+Please enter a number to push to stack:  1
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  u
+
+Please enter a number to push to stack:  2
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  u
+
+Please enter a number to push to stack:  3
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  w
+
+The Stack contains:
+1 2 3 
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  i
+Stack is not empty.
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  e f
+Stack is not full.
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  n
+Number of elements on the stack is:  3
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  e
+Stack is empty.
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  w
+
+The Stack contains:
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  d
+Stack has been deleted.
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  
+[cs12xkf@acs-cseb260-27]:hw3:804$ exit
+
+Script done on Tue Jan 20 23:55:23 2015

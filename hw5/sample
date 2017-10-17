@@ -1,0 +1,208 @@
+Script started on Wed Feb  4 13:54:38 2015
+[?1h=
+******************************************************************
+                        WELCOME TO CSE 12!
+****************************************************************** 
+[7m/home/linux/ieng6/cs12x/public/broadcast (END) [27m[K[K [KESCESC[KOO[KBB[K[K[?1l>]0;[cs12x]  cs12xkf@acs-cseb240-33.ucsd.edu:/home/linux/ieng6/cs12x/cs12xkf[?1034h[cs12xkf@acs-cseb240-33]:~:991$ cd hw5
+]0;[cs12x]  cs12xkf@acs-cseb240-33.ucsd.edu:/home/linux/ieng6/cs12x/cs12xkf/hw5[cs12xkf@acs-cseb240-33]:hw5:992$ ./driver1
+
+The commands are:
+    is(e)mpty, (i)nsert, (p)op, 
+    (a)dvance pre, advance (n)ext, 
+    (r)emove, (t)op, p(u)sh, 
+    (v)iew, (w)rite, (W)rite reverse,
+
+Please enter a command:  ^[[A    w
+
+The Stack contains:
+List 1 has 0 items in it.
+
+
+The commands are:
+    is(e)mpty, (i)nsert, (p)op, 
+    (a)dvance pre, advance (n)ext, 
+    (r)emove, (t)op, p(u)sh, 
+    (v)iew, (w)rite, (W)rite reverse,
+
+Please enter a command:  i
+
+Please enter a number to insert into list:  2
+Specify 2 for SORTED, 1 for FRONT, 0 for END
+Please enter choice:  1
+
+The commands are:
+    is(e)mpty, (i)nsert, (p)op, 
+    (a)dvance pre, advance (n)ext, 
+    (r)emove, (t)op, p(u)sh, 
+    (v)iew, (w)rite, (W)rite reverse,
+
+Please enter a command:  i
+
+Please enter a number to insert into list:  9
+Specify 2 for SORTED, 1 for FRONT, 0 for END
+Please enter choice:  0
+
+The commands are:
+    is(e)mpty, (i)nsert, (p)op, 
+    (a)dvance pre, advance (n)ext, 
+    (r)emove, (t)op, p(u)sh, 
+    (v)iew, (w)rite, (W)rite reverse,
+
+Please enter a command:  i
+
+Please enter a number to insert into list:  3
+Specify 2 for SORTED, 1 for FRONT, 0 for END
+Please enter choice:  1
+
+The commands are:
+    is(e)mpty, (i)nsert, (p)op, 
+    (a)dvance pre, advance (n)ext, 
+    (r)emove, (t)op, p(u)sh, 
+    (v)iew, (w)rite, (W)rite reverse,
+
+Please enter a command:  w
+
+The Stack contains:
+List 1 has 3 items in it.
+
+element 1:  MyRec has value of:  3
+element 2:  MyRec has value of:  2
+element 3:  MyRec has value of:  9
+
+The commands are:
+    is(e)mpty, (i)nsert, (p)op, 
+    (a)dvance pre, advance (n)ext, 
+    (r)emove, (t)op, p(u)sh, 
+    (v)iew, (w)rite, (W)rite reverse,
+
+Please enter a command:  p
+[List 1 - Removing node]
+
+Number popped from the stack is:  MyRec has value of:  9
+The commands are:
+    is(e)mpty, (i)nsert, (p)op, 
+    (a)dvance pre, advance (n)ext, 
+    (r)emove, (t)op, p(u)sh, 
+    (v)iew, (w)rite, (W)rite reverse,
+
+Please enter a command:  w
+
+The Stack contains:
+List 1 has 2 items in it.
+
+element 1:  MyRec has value of:  3
+element 2:  MyRec has value of:  2
+
+The commands are:
+    is(e)mpty, (i)nsert, (p)op, 
+    (a)dvance pre, advance (n)ext, 
+    (r)emove, (t)op, p(u)sh, 
+    (v)iew, (w)rite, (W)rite reverse,
+
+Please enter a command:  p
+[List 1 - Removing node]
+
+Number popped from the stack is:  MyRec has value of:  2
+The commands are:
+    is(e)mpty, (i)nsert, (p)op, 
+    (a)dvance pre, advance (n)ext, 
+    (r)emove, (t)op, p(u)sh, 
+    (v)iew, (w)rite, (W)rite reverse,
+
+Please enter a command:  w
+
+The Stack contains:
+List 1 has 1 items in it.
+
+element 1:  MyRec has value of:  3
+
+The commands are:
+    is(e)mpty, (i)nsert, (p)op, 
+    (a)dvance pre, advance (n)ext, 
+    (r)emove, (t)op, p(u)sh, 
+    (v)iew, (w)rite, (W)rite reverse,
+
+Please enter a command:  p
+[List 1 - Removing node]
+
+Number popped from the stack is:  MyRec has value of:  3
+The commands are:
+    is(e)mpty, (i)nsert, (p)op, 
+    (a)dvance pre, advance (n)ext, 
+    (r)emove, (t)op, p(u)sh, 
+    (v)iew, (w)rite, (W)rite reverse,
+
+Please enter a command:  w
+
+The Stack contains:
+List 1 has 0 items in it.
+
+
+The commands are:
+    is(e)mpty, (i)nsert, (p)op, 
+    (a)dvance pre, advance (n)ext, 
+    (r)emove, (t)op, p(u)sh, 
+    (v)iew, (w)rite, (W)rite reverse,
+
+Please enter a command:  i
+
+Please enter a number to insert into list:  2
+Specify 2 for SORTED, 1 for FRONT, 0 for END
+Please enter choice:  1
+
+The commands are:
+    is(e)mpty, (i)nsert, (p)op, 
+    (a)dvance pre, advance (n)ext, 
+    (r)emove, (t)op, p(u)sh, 
+    (v)iew, (w)rite, (W)rite reverse,
+
+Please enter a command:  w
+
+The Stack contains:
+List 1 has 1 items in it.
+
+element 1:  MyRec has value of:  2
+
+The commands are:
+    is(e)mpty, (i)nsert, (p)op, 
+    (a)dvance pre, advance (n)ext, 
+    (r)emove, (t)op, p(u)sh, 
+    (v)iew, (w)rite, (W)rite reverse,
+
+Please enter a command:  r
+Specify 1 for FRONT, 0 for END
+Please enter choice:  1
+[List 1 - Removing node]
+
+Number removed from list is:  MyRec has value of:  2
+The commands are:
+    is(e)mpty, (i)nsert, (p)op, 
+    (a)dvance pre, advance (n)ext, 
+    (r)emove, (t)op, p(u)sh, 
+    (v)iew, (w)rite, (W)rite reverse,
+
+Please enter a command:  w
+
+The Stack contains:
+List 1 has 0 items in it.
+
+
+The commands are:
+    is(e)mpty, (i)nsert, (p)op, 
+    (a)dvance pre, advance (n)ext, 
+    (r)emove, (t)op, p(u)sh, 
+    (v)iew, (w)rite, (W)rite reverse,
+
+Please enter a command:  e
+
+Stack is empty.
+The commands are:
+    is(e)mpty, (i)nsert, (p)op, 
+    (a)dvance pre, advance (n)ext, 
+    (r)emove, (t)op, p(u)sh, 
+    (v)iew, (w)rite, (W)rite reverse,
+
+Please enter a command:  ^C
+[cs12xkf@acs-cseb240-33]:hw5:993$ exit
+
+Script done on Wed Feb  4 13:55:23 2015

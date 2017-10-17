@@ -1,0 +1,119 @@
+Script started on Wed Jan 14 10:12:14 2015
+[?1h=
+******************************************************************
+                        WELCOME TO CSE 12!
+****************************************************************** 
+[7m/home/linux/ieng6/cs12x/public/broadcast (END) [27m[K[K [KESCESC[KOO[KBB[K[K[?1l>]0;[cs12x]  cs12xkf@acs-cseb240-40.ucsd.edu:/home/linux/ieng6/cs12x/cs12xkf[?1034h[cs12xkf@acs-cseb240-40]:~:613$ cd hw2
+]0;[cs12x]  cs12xkf@acs-cseb240-40.ucsd.edu:/home/linux/ieng6/cs12x/cs12xkf/hw2[cs12xkf@acs-cseb240-40]:hw2:614$ ls
+Makefile              [0m[01;34mbackup[0m   [01;32mdriver2[0m  hw2.class  hw2.java   hw2.o
+MyLibCharacter.class  [01;32mdriver1[0m  hw2.c    hw2.c~     hw2.java~  sample
+[m[cs12xkf@acs-cseb240-40]:hw2:615$ make
+make: Nothing to be done for `all'.
+[cs12xkf@acs-cseb240-40]:hw2:616$ ./driuv  ver1
+
+Please enter a string:  hell    Hello WOrld    orld!
+
+The string is:  Hello World!
+Its length is 12
+
+Please enter a decimal number:  123
+Number entered is:  123
+And in hexidecimal is:  0x0000007B
+Number entered multiplied by 8 is:  984
+And in hexidecimal is:  0x000003D8
+
+Please enter a string:  ^C
+[cs12xkf@acs-cseb240-40]:hw2:617$ ./driver1 -x
+
+
+[*DEBUG:  The length of the string displayed is  25 ]
+Please enter a string:  hihihi
+[*DEBUG:  The length of the string just entered is  6 ]
+
+
+[*DEBUG:  The length of the string displayed is  16 ]
+
+[*DEBUG:  The length of the string displayed is  6 ]
+The string is:  hihihi
+
+[*DEBUG:  The length of the string displayed is  15 ]
+Its length is 6
+
+
+[*DEBUG:  The length of the string displayed is  33 ]
+Please enter a decimal number:  999
+
+[*DEBUG:  The length of the string displayed is  20 ]
+Number entered is:  999
+
+[*DEBUG:  The length of the string displayed is  25 ]
+
+[*DEBUG:  The length of the string displayed is  2 ]
+And in hexidecimal is:  0x000003E7
+
+[*DEBUG:  The length of the string displayed is  37 ]
+Number entered multiplied by 8 is:  7992
+
+[*DEBUG:  The length of the string displayed is  25 ]
+
+[*DEBUG:  The length of the string displayed is  2 ]
+And in hexidecimal is:  0x00001F38
+
+
+[*DEBUG:  The length of the string displayed is  25 ]
+Please enter a string:  ^C
+[cs12xkf@acs-cseb240-40]:hw2:618$ ./driver1 -x[1P[1@2 [1Px[K
+
+Please enter a string:  Hola WOrld    orld!
+
+The string is:  Hola World!
+Its length is 11
+
+Please enter a decimal number:  1479
+Number entered is:  1479
+And in hexidecimal is:  0x000005C7
+Number entered multiplied by 8 is:  11832
+And in hexidecimal is:  0x00002E38
+
+Please enter a string:  ^C[cs12xkf@acs-cseb240-40]:hw2:619$ ./driver2 1 -x
+
+
+[*DEBUG:  The length of the string displayed is  25 ]
+Please enter a string:  hellooooo
+[*DEBUG:  The length of the string just entered is  9 ]
+
+
+[*DEBUG:  The length of the string displayed is  16 ]
+
+[*DEBUG:  The length of the string displayed is  9 ]
+The string is:  hellooooo
+
+[*DEBUG:  The length of the string displayed is  15 ]
+Its length is 9
+
+
+[*DEBUG:  The length of the string displayed is  33 ]
+Please enter a decimal number:  999999
+
+[*DEBUG:  The length of the string displayed is  20 ]
+Number entered is:  999999
+
+[*DEBUG:  The length of the string displayed is  25 ]
+
+[*DEBUG:  The length of the string displayed is  2 ]
+And in hexidecimal is:  0x000F423F
+
+[*DEBUG:  The length of the string displayed is  37 ]
+Number entered multiplied by 8 is:  7999992
+
+[*DEBUG:  The length of the string displayed is  25 ]
+
+[*DEBUG:  The length of the string displayed is  2 ]
+And in hexidecimal is:  0x007A11F8
+
+
+[*DEBUG:  The length of the string displayed is  25 ]
+Please enter a string:  ^C
+[cs12xkf@acs-cseb240-40]:hw2:620$ exit
+
+Script done on Wed Jan 14 10:13:28 2015

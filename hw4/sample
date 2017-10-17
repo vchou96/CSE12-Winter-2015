@@ -1,0 +1,69 @@
+Script started on Wed Jan 28 00:34:53 2015
+[?1h=
+******************************************************************
+                        WELCOME TO CSE 12!
+****************************************************************** 
+[7m/home/linux/ieng6/cs12x/public/broadcast (END) [27m[K[K [KESCESC[KOO[KBB[K[K[?1l>]0;[cs12x]  cs12xkf@acs-cseb240-32.ucsd.edu:/home/linux/ieng6/cs12x/cs12xkf[?1034h[cs12xkf@acs-cseb240-32]:~:995$ cd hw4
+]0;[cs12x]  cs12xkf@acs-cseb240-32.ucsd.edu:/home/linux/ieng6/cs12x/cs12xkf/hw4[cs12xkf@acs-cseb240-32]:hw4:996$ make
+make: Nothing to be done for `all'.
+[cs12xkf@acs-cseb240-32]:hw4:997$ ./calc
+
+Please enter an expression to calculate:  1+2
+
+The expression in postfix order is:  1 2 + 
+	which evaluates to:  3
+
+Please enter an expression to calculate:  4+5
+
+The expression in postfix order is:  4 5 + 
+	which evaluates to:  9
+
+Please enter an expression to calculate:  4*2
+
+The expression in postfix order is:  4 2 * 
+	which evaluates to:  8
+
+Please enter an expression to calculate:  3*2
+
+The expression in postfix order is:  3 2 * 
+	which evaluates to:  6
+
+Please enter an expression to calculate:  4!
+
+The expression in postfix order is:  4 ! 
+	which evaluates to:  24
+
+Please enter an expression to calculate:  5!
+
+The expression in postfix order is:  5 ! 
+	which evaluates to:  120
+
+Please enter an expression to calculate:  4^2
+
+The expression in postfix order is:  4 2 ^ 
+	which evaluates to:  16
+
+Please enter an expression to calculate:  3^3
+
+The expression in postfix order is:  3 3 ^ 
+	which evaluates to:  27
+
+Please enter an expression to calculate:  8/4
+
+The expression in postfix order is:  8 4 / 
+	which evaluates to:  2
+
+Please enter an expression to calculate:  8-4
+
+The expression in postfix order is:  8 4 - 
+	which evaluates to:  4
+
+Please enter an expression to calculate:  (1+2)*3
+
+The expression in postfix order is:  1 2 + 3 * 
+	which evaluates to:  9
+
+Please enter an expression to calculate:  
+[cs12xkf@acs-cseb240-32]:hw4:998$ exit
+
+Script done on Wed Jan 28 00:35:52 2015
